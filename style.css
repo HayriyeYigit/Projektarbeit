@@ -17,9 +17,11 @@ html{
     font-size: 14pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-color);
+    scroll-behavior: smooth;
 }
 body{
-    min-height: 100vh;
+    height: 100%;
+    width: 100%;
     background-color: var(--primary-color);
 }
 header {
@@ -34,6 +36,12 @@ header {
         justify-content: flex-end;
         
 
+}
+.header_text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center ;
+    padding: 50px;
 }
 nav ul{
     display: flex;
