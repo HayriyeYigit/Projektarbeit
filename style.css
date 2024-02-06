@@ -49,6 +49,7 @@ nav ul{
     flex-direction: row;
     margin-right: 40px;
     justify-content: flex-end;
+    font-size: 1.2rem;
 }
 nav ul li{
     margin: 40px 30px;
