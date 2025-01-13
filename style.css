@@ -35,7 +35,7 @@ header {
 }
 
 .wobble-hor-bottom {
-    animation: wobble-hor-bottom 0.8s both;
+    animation: wobble-hor-bottom 0,8s both;
 }
 
 @keyframes wobble-hor-bottom {
@@ -63,6 +63,7 @@ header {
 .nav {
     margin-bottom: 150px;
     justify-content: flex-end;
+    
 }
 
 .header_text {
@@ -158,6 +159,7 @@ header .read-more:hover {
     font-size: 3rem;
     text-align: center;
 }
+
 
 #skill-section .wrapper {
     margin-top: 60px;
